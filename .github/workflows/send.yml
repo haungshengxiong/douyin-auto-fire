@@ -13,8 +13,7 @@ on:
 
 concurrency:
   group: douyin-daily-sender
-  cancel-in-progress: false
-
+  cancel-in-progress: true
 jobs:
   send:
     runs-on: ubuntu-latest
